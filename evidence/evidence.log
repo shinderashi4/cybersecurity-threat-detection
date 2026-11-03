@@ -1,0 +1,7 @@
+198.51.100.77 - - [03/Nov/2026:10:01:52 +0000] "GET /login HTTP/1.1" 401 512 "-" "Mozilla/5.0"
+203.0.113.8 - - [03/Nov/2026:10:05:00 +0000] "GET /../../etc/passwd HTTP/1.1" 404 512 "-" "Mozilla/5.0"
+203.0.113.8 - - [03/Nov/2026:10:05:01 +0000] "GET /items?id=1%20UNION%20SELECT%20user,pass%20FROM%20users HTTP/1.1" 200 512 "-" "Mozilla/5.0"
+203.0.113.8 - - [03/Nov/2026:10:05:02 +0000] "GET /s.php?cmd=base64_decode(abc) HTTP/1.1" 200 512 "-" "sqlmap/1.7"
+203.0.113.8 - - [03/Nov/2026:10:05:02 +0000] "GET /s.php?cmd=base64_decode(abc) HTTP/1.1" 200 512 "-" "sqlmap/1.7"
+203.0.113.50 - - [03/Nov/2026:10:05:10 +0000] "GET / HTTP/1.1" 200 512 "-" "Mozilla/5.0"
+Nov 03 10:03:36 srv sshd[14]: Failed password for invalid user admin from 192.0.2.10 port 22 ssh2

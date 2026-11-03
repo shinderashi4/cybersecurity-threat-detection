@@ -1,0 +1,41 @@
+[
+  {
+    "ip": "198.51.100.77",
+    "severity": "High",
+    "alerts": 1,
+    "types": [
+      "Brute Force"
+    ],
+    "remediation": "iptables -A INPUT -s 198.51.100.77 -j DROP"
+  },
+  {
+    "ip": "203.0.113.8",
+    "severity": "High",
+    "alerts": 4,
+    "types": [
+      "Directory Traversal",
+      "SQL Injection",
+      "Scanner User-Agent",
+      "Web Shell / RCE"
+    ],
+    "remediation": "iptables -A INPUT -s 203.0.113.8 -j DROP"
+  },
+  {
+    "ip": "203.0.113.50",
+    "severity": "High",
+    "alerts": 1,
+    "types": [
+      "IoC Blocklist Match"
+    ],
+    "remediation": "iptables -A INPUT -s 203.0.113.50 -j DROP"
+  },
+  {
+    "ip": "192.0.2.10",
+    "severity": "High",
+    "alerts": 1,
+    "types": [
+      "Brute Force"
+    ],
+    "remediation": "iptables -A INPUT -s 192.0.2.10 -j DROP"
+  }
+]
